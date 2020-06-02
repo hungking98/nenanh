@@ -24,6 +24,11 @@ for k in range(10):
 
 #Đảo ngược lại mảng để trở về ma trận ảnh số
 img5 = img4.reshape((img.shape[0], img.shape[1], img.shape[2]))
+
+#ngược lại với hàm imread thì có hàm imsave để ghi ra ảnh từ ma trận
+mpimg.imsave('ketqua.jpg',img5)
+
+#có thể in ảnh bằng matlotlip
 plt.imshow(img5)
 
 plt.axis('off')
