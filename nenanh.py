@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.cluster import KMeans
 import sys
 from numpy.ma.core import size
+#test gitgggggg
 
 #đọc ảnh vào bằng 1 hàm. Hàm này cho ra img là một ma trận số. Mỗi phần tử của ma trận là một pixel
 img = mpimg.imread('girl3.jpg')
